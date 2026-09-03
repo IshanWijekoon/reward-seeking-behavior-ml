@@ -1,0 +1,37 @@
+{
+  "name": "dataset2_prepared",
+  "n_rows": 904,
+  "target": "risk_level",
+  "class_counts": {
+    "High": 468,
+    "Moderate": 221,
+    "Low": 215
+  },
+  "features": [
+    "Age",
+    "Income_USD",
+    "Daily_Screen_Time_Hours",
+    "Phone_Unlocks_Per_Day",
+    "Social_Media_Usage_Hours",
+    "Gaming_Usage_Hours",
+    "Streaming_Usage_Hours",
+    "Messaging_Usage_Hours",
+    "Work_Related_Usage_Hours",
+    "Sleep_Hours",
+    "Physical_Activity_Hours",
+    "Stress_Level",
+    "Time_Spent_With_Family_Hours",
+    "Online_Shopping_Hours",
+    "Has_Screen_Time_Management_App",
+    "Monthly_Data_Usage_GB",
+    "Has_Night_Mode_On",
+    "Age_First_Phone",
+    "Push_Notifications_Per_Day",
+    "Tech_Savviness_Score",
+    "Education_Level_ord",
+    "Gender_Male",
+    "Gender_Other",
+    "Urban_Urban",
+    "reward_app_share"
+  ]
+}

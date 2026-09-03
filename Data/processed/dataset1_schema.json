@@ -1,0 +1,24 @@
+{
+  "name": "dataset1_prepared",
+  "n_rows": 7500,
+  "target": "risk_level",
+  "class_counts": {
+    "Moderate": 2874,
+    "High": 2434,
+    "Low": 2192
+  },
+  "features": [
+    "age",
+    "daily_screen_time_hours",
+    "social_media_hours",
+    "gaming_hours",
+    "work_study_hours",
+    "sleep_hours",
+    "notifications_per_day",
+    "app_opens_per_day",
+    "stress_level_ord",
+    "gender_Male",
+    "gender_Other",
+    "reward_app_share"
+  ]
+}
