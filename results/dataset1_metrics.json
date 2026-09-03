@@ -1,0 +1,80 @@
+{
+  "dataset": "dataset1",
+  "best_model": "XGBoost",
+  "best_params": {
+    "model__subsample": 1.0,
+    "model__n_estimators": 200,
+    "model__max_depth": 7,
+    "model__learning_rate": 0.05,
+    "model__colsample_bytree": 1.0
+  },
+  "cv_summary": [
+    {
+      "model": "XGBoost",
+      "cv_f1_macro_mean": 0.6314684192245188,
+      "cv_f1_macro_std": 0.009197508480552308,
+      "cv_accuracy_mean": 0.6183333333333333,
+      "cv_accuracy_std": 0.009036961141150667,
+      "cv_roc_auc_mean": 0.8146255785361604,
+      "cv_roc_auc_std": 0.004268180855588772
+    },
+    {
+      "model": "RandomForest",
+      "cv_f1_macro_mean": 0.6278759862021527,
+      "cv_f1_macro_std": 0.01153958779087931,
+      "cv_accuracy_mean": 0.6188333333333333,
+      "cv_accuracy_std": 0.011037813793198964,
+      "cv_roc_auc_mean": 0.8128999352738383,
+      "cv_roc_auc_std": 0.004033407826010552
+    },
+    {
+      "model": "LogisticRegression",
+      "cv_f1_macro_mean": 0.6072177382656014,
+      "cv_f1_macro_std": 0.00901901309449251,
+      "cv_accuracy_mean": 0.5981666666666666,
+      "cv_accuracy_std": 0.010211649121360269,
+      "cv_roc_auc_mean": 0.799532484919492,
+      "cv_roc_auc_std": 0.005238107379373945
+    },
+    {
+      "model": "NeuralNet",
+      "cv_f1_macro_mean": 0.6016003368274648,
+      "cv_f1_macro_std": 0.010755895107950632,
+      "cv_accuracy_mean": 0.5951666666666666,
+      "cv_accuracy_std": 0.010767750203475384,
+      "cv_roc_auc_mean": 0.8024280983795778,
+      "cv_roc_auc_std": 0.004576914872769294
+    },
+    {
+      "model": "SVM",
+      "cv_f1_macro_mean": 0.5979670169230262,
+      "cv_f1_macro_std": 0.008702332498672348,
+      "cv_accuracy_mean": 0.5911666666666667,
+      "cv_accuracy_std": 0.013463943619080477,
+      "cv_roc_auc_mean": 0.7979388775607525,
+      "cv_roc_auc_std": 0.009300852822359259
+    }
+  ],
+  "holdout_metrics": {
+    "accuracy": 0.622,
+    "precision_macro": 0.6267912530202963,
+    "recall_macro": 0.6441808237115163,
+    "f1_macro": 0.6332277868554551,
+    "f1_weighted": 0.6148598957071605,
+    "roc_auc_ovr_macro": 0.8157984229323026
+  },
+  "features": [
+    "age",
+    "daily_screen_time_hours",
+    "social_media_hours",
+    "gaming_hours",
+    "work_study_hours",
+    "sleep_hours",
+    "notifications_per_day",
+    "app_opens_per_day",
+    "stress_level_ord",
+    "gender_Male",
+    "gender_Other",
+    "reward_app_share"
+  ]
+}
